@@ -1,0 +1,26 @@
+$blue: #3c8dbc;
+$white: #fff;
+$black: #000;
+$grey: #d2d6de;
+$yellow: #f39c12;
+$red: #dd4b39;
+$green: #00a65a;
+
+
+$color-blue: $blue;
+$color-white: $white;
+$color-grey: $grey;
+
+$border-color: $grey;
+$success-color: $green;
+$error-color: $red;
+$warning-color: $yellow;
+
+
+$button-default-color: #656b79;
+$button-default-background-color: #f6f8fa;
+$button-default-plain-color: #5a5a5a;
+
+$button-primary-color: $white;
+$button-primary-background-color: #26a2ff;
+$button-danger-color: $white;
