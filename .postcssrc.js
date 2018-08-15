@@ -3,6 +3,12 @@
 module.exports = {
   "plugins": {
     // to edit target browsers: use "browserlist" field in package.json
-    "autoprefixer": {}
+    // "precss": {},
+    // "autoprefixer": {}
+    "postcss-salad": {
+      "features": {
+        "bem": true
+      }
+    }
   }
 }
