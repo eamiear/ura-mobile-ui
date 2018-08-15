@@ -27,6 +27,10 @@ $button-primary-background-color: #26a2ff;
 $button-danger-color: $white;
 $button-danger-background-color: #ef4f4f;
 
+$tabbar-background-color: #fafafa;
+$tabbar-tab-item-selected-background-color: #eaeaea;
+$tabbar-tab-item-selected-color: $color-blue;
+
 
 $header-height: 40px;
 

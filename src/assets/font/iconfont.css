@@ -1,21 +1,21 @@
 
 @font-face {
-  font-family: "uraui";
+  font-family: "ura-icon";
   src: url('iconfont.ttf?t=1464927413')
 }
 
-.uraui {
-  font-family:"uraui" !important;
+.ura-icon {
+  font-family:"ura-icon" !important;
   font-size:16px;
   font-style:normal;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
-.uraui-search:before { content: "\e604"; }
-.uraui-more:before { content: "\e601"; }
-.uraui-back:before { content: "\e600"; }
-.uraui-field-error:before { content: "\e605"; }
-.uraui-field-warning:before { content: "\e608"; }
-.uraui-success:before { content: "\e602"; }
-.uraui-field-success:before { content: "\e609"; }
+.ura-icon-search:before { content: "\e604"; }
+.ura-icon-more:before { content: "\e601"; }
+.ura-icon-back:before { content: "\e600"; }
+.ura-icon-field-error:before { content: "\e605"; }
+.ura-icon-field-warning:before { content: "\e608"; }
+.ura-icon-success:before { content: "\e602"; }
+.ura-icon-field-success:before { content: "\e609"; }
