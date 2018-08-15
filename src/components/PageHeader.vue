@@ -1,6 +1,6 @@
 <template lang="html">
   <ura-header fixed title="标题">
-    <ura-button slot="left"><</ura-button>
+    <ura-button slot="left" icon="back"></ura-button>
   </ura-header>
 </template>
 

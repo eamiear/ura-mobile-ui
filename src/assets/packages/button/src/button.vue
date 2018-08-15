@@ -50,94 +50,94 @@
 </script>
 
 <style lang="postcss">
-  @import "../../../style/var.css"
+@import "../../../style/var.css";
 
-  @component-namespace ura {
-    @component button {
-      appearance: none;
-      display: block;
-      font-size: 18px;
-      height: 41px;
-      border: 0;
-      border-radius: 4px;
-      box-sizing: border-box;
-      outline: none;
-      overflow: hidden;
-      color: inherit;
-      position: relative;
-      text-align: center;
+@component-namespace ura {
+  @component button {
+    appearance: none;
+    display: block;
+    font-size: 18px;
+    height: 41px;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    overflow: hidden;
+    color: inherit;
+    position: relative;
+    text-align: center;
 
-      &::after {
-        background-color: $black;
-        content: " ";
-        opacity: 0;
-        position: absolute 0 0 0 0;
-      }
+    &::after {
+      background-color: $black;
+      content: " ";
+      opacity: 0;
+      position: absolute 0 0 0 0;
+    }
 
-      &:not(.is-disabled):active::after{
-        opacity: .4;
-      }
+    &:not(.is-disabled):active::after{
+      opacity: .4;
+    }
 
-      @descendant icon {
-        display: inline-block;
-        vertical-align: middle;
-      }
+    @descendent icon {
+      display: inline-block;
+      vertical-align: middle;
+    }
 
-      @modifier default {
-        color: $button-default-color;
-        background-color: $button-default-background-color;
-        box-shadow: $button-default-box-shadow;
+    @modifier default {
+      color: $button-default-color;
+      background-color: $button-default-background-color;
+      box-shadow: $button-default-box-shadow;
 
-        @when plain {
-          border: 1px solid $button-default-plain-color;
-          background-color: transparent;
-          box-shadow: none;
-          color: $button-default-plain-color;
-        }
-      }
-
-      @modifier primary {
-        color: $button-primary-color;
-        background-color: $button-primary-background-color;
-
-        @when plain {
-          border: 1px solid $button-primary-background-color;
-          background-color: transparent;
-          color: $button-primary-background-color;
-        }
-      }
-
-      @modifier danger {
-        color: $button-danger-color;
-        background-color: $button-danger-background-color;
-
-        @when plain {
-          border: 1px solid $button-danger-background-color;
-          background-color: transparent;
-          color: $button-danger-background-color;
-        }
-      }
-
-      @modifier large {
-        display: block;
-        width: 100%;
-      }
-
-      @modifier normal {
-        display: inline-block;
-        padding: 0 12px;
-      }
-
-      @modifier small {
-        display: inline-block;
-        font-size: 14px;
-        padding: 0 12px;
-        height: 33px;
-      }
-
-      @when disabled {
-        opacity: .5;
+      @when plain {
+        border: 1px solid $button-default-plain-color;
+        background-color: transparent;
+        box-shadow: none;
+        color: $button-default-plain-color;
       }
     }
+
+    @modifier primary {
+      color: $button-primary-color;
+      background-color: $button-primary-background-color;
+
+      @when plain {
+        border: 1px solid $button-primary-background-color;
+        background-color: transparent;
+        color: $button-primary-background-color;
+      }
+    }
+
+    @modifier danger {
+      color: $button-danger-color;
+      background-color: $button-danger-background-color;
+
+      @when plain {
+        border: 1px solid $button-danger-background-color;
+        background-color: transparent;
+        color: $button-danger-background-color;
+      }
+    }
+
+    @modifier large {
+      display: block;
+      width: 100%;
+    }
+
+    @modifier normal {
+      display: inline-block;
+      padding: 0 12px;
+    }
+
+    @modifier small {
+      display: inline-block;
+      font-size: 14px;
+      padding: 0 12px;
+      height: 33px;
+    }
+
+    @when disabled {
+      opacity: .5;
+    }
   }
+}
 </style>
