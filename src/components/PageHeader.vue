@@ -1,11 +1,14 @@
 <template lang="html">
-  <ura-header fixed title="标题"></ura-header>
+  <ura-header fixed title="标题">
+    <ura-button slot="left"><</ura-button>
+  </ura-header>
 </template>
 
 <script>
-import Header from '@/assets/packages/header'
+import UraHeader from '@/assets/packages/header'
+import UraButton from '@/assets/packages/button'
 export default {
-  components: {Header}
+  components: {UraHeader, UraButton}
 }
 </script>
 
