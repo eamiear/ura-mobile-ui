@@ -32,6 +32,10 @@ export default new Router({
           component: _import('user')
         }
       ]
+    },
+    {
+      path: '/info',
+      component: _import('info')
     }
   ]
 })

@@ -78,7 +78,7 @@
 .ura-icon-morevert:before { content: "\e60b"; }
 .ura-icon-phone:before { content: "\e63d"; }
 .ura-icon-close:before { content: "\e64a"; }
-.ura-icon-error:before { content: "\e67a"; }
+.ura-icon-close-o:before { content: "\e67a"; }
 .ura-icon-gift:before { content: "\e61a"; }
 .ura-icon-iconfontzhizuobiaozhun023113:before { content: "\e673"; }
 .ura-icon-warning:before { content: "\e63b"; }
