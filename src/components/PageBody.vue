@@ -1,5 +1,7 @@
 <template>
-  <router-view></router-view>
+  <section class="ura-body">
+    <router-view></router-view>
+  </section>
 </template>
 
 <script>
@@ -8,6 +10,11 @@
   }
 </script>
 
-<style scoped>
+<style lang="postcss">
 
+  @component-namespace ura {
+    @component body {
+      padding: 45px 5px 0;
+    }
+  }
 </style>
