@@ -4,7 +4,7 @@
     :style="{color, size}"
     v-on="$listeners">
     <slot></slot>
-    <div v-if="info" :class="ura-icon-info">{{info}}</div>
+    <div v-if="info" :class="ura-icon__info">{{info}}</div>
   </i>
 </template>
 
@@ -21,11 +21,11 @@
 </script>
 
 <style lang="postcss">
-@import '../../../style/var.css'
+@import '../../../style/var.css';
 
 @font-face {
   font-family: "ura-icon";
-  src: url('../../../font/iconfont.ttf?t=1464927413')
+  src: url('../../../font/iconfont.ttf?t=1464927413');
 }
 
 @component-namespace ura {

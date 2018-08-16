@@ -1,10 +1,10 @@
 <template lang="html">
   <header class="ura-header" :class="{'is-fixed': fixed}">
-    <div class="ura-header-button is-left">
+    <div class="ura-header__button is-left">
       <slot name="left"></slot>
     </div>
-    <h1 class="ura-header-title" v-text="title"></h1>
-    <div class="ura-header-button is-right">
+    <h1 class="ura-header__title" v-text="title"></h1>
+    <div class="ura-header__button is-right">
       <slot name="right"></slot>
     </div>
   </header>

@@ -8,12 +8,12 @@
     }]"
     @click="handleClick"
     :disabled="disabled">
-      <span class="ura-button-icon" v-if="icon || $slots.icon">
+      <span class="ura-button__icon" v-if="icon || $slots.icon">
         <slot name="icon">
-          <i v-if="icon" class="uraui" :class="`uraui-${icon}`"></i>
+          <i v-if="icon" class="ura-icon" :class="`ura-icon-${icon}`"></i>
         </slot>
       </span>
-      <label class="ura-button-text"><slot></slot></label>
+      <label class="ura-button__text"><slot></slot></label>
     </button>
 </template>
 

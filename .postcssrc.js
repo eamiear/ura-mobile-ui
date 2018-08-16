@@ -7,7 +7,13 @@ module.exports = {
     // "autoprefixer": {}
     "postcss-salad": {
       "features": {
-        "bem": true
+        "bem": {
+          separators: {
+            namespace: '-',
+            descendent: '__',
+            modifier: '--'
+          }
+        }
       }
     }
   }

@@ -32,6 +32,8 @@ $tabbar-tab-item-selected-background-color: #eaeaea;
 $tabbar-tab-item-selected-color: $color-blue;
 
 
+$tab-item-font-size: 12px;
+
 $header-height: 40px;
 
 $z-index-normal: 1;
