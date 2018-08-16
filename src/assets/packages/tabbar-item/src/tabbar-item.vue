@@ -2,13 +2,13 @@
   <div class="ura-tabbar-item"
     @click="onClick"
     :class="{'is-selected': $parent.value === id}">
-      <div class="ura-tab-item__icon" :class="{'ura-tab-item__icon--dot': dot}">
+      <div class="ura-tabbar-item__icon" :class="{'ura-tabbar-item__icon--dot': dot}">
         <slot name="icon">
           <ura-icon v-if="icon" :name="icon"></ura-icon>
         </slot>
-        <div class="ura-tab-item__info"></div>
+        <div class="ura-tabbar-item__info">{{info}}</div>
       </div>
-      <div class="ura-tab-item__label"><slot></slot></div>
+      <div class="ura-tabbar-item__label"><slot></slot></div>
   </div>
 </template>
 
@@ -27,8 +27,8 @@
     components: {UraIcon},
     methods: {
       onClick (evt) {
-        this.$parent.$emit('input', id)
-        this.routerLink();
+        this.$parent.$emit('input', this.id)
+        this.routerLink()
       }
     }
   }
@@ -48,7 +48,7 @@
       text-decoration: none;
 
       @descendent icon {
-        size: 18px;
+        /* size: 18px; */
         margin: 0 auto 5px;
         position: relative;
 

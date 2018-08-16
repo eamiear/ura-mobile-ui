@@ -7,7 +7,7 @@ export default {
 
   methods: {
     routerLink () {
-      const {to, url, $router, replace} = this;
+      const {to, url, $router, replace} = this
       if (to && replace) {
         $router[replace ? 'replace' : 'push'](to)
       } else if (url) {

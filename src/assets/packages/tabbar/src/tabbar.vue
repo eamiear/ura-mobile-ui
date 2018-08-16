@@ -18,13 +18,13 @@
 </script>
 
 <style lang="postcss">
-@import('../../../style/var.css');
+@import "../../../style/var.css";
 
 @component-namespace ura {
   @component tabbar {
     display: flex;
     position: absolute * 0 0 0;
-    background-image: linear-gradient(100deg, $color-grey, $color-grey 50%, transparent 50%);
+    background-image: linear-gradient(100deg, $color-grey, $color-grey 50%, $color-grey 50%);
     background-size: 100% 1px;
     background-repeat: no-repeat;
     background-position: top left;
@@ -36,7 +36,7 @@
       z-index: $z-index-normal;
     }
 
-    > .ura-tab-item.is-selected {
+    > .ura-tabbar-item.is-selected {
       background-color: $tabbar-tab-item-selected-background-color;
       color: $tabbar-tab-item-selected-color;
     }
