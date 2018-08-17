@@ -98,6 +98,8 @@
 .ura-icon-plus:before { content: "\e8e1"; }
 .ura-icon-success-o:before { content: "\e8e3"; }
 .ura-icon-success:before { content: "\e8e5"; }
+.ura-icon-close-o:before { content: "\e8e7"; }
+.ura-icon-close:before { content: "\e8e8"; }
 .ura-icon-error-o:before { content: "\e8e7"; }
 .ura-icon-error:before { content: "\e8e8"; }
 .ura-icon-news-o:before { content: "\e8e9"; }
