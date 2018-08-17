@@ -181,7 +181,7 @@ async function request (req) {
 
 // get 请求
 function get (req) {
-  return request(Object.assign(req, {method: 'post'}))
+  return request(Object.assign(req, {method: 'get'}))
 }
 
 // post 请求

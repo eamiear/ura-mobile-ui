@@ -43,13 +43,13 @@
       align-items: center;
       flex-direction: column;
       justify-content: center;
-      padding: 7px 0;
+      padding: 7px 0 2px;
       flex: 1;
       text-decoration: none;
 
       @descendent icon {
         /* size: 18px; */
-        margin: 0 auto 5px;
+        margin: 0 auto;
         position: relative;
 
 
