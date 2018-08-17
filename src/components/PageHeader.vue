@@ -1,5 +1,5 @@
 <template lang="html">
-  <ura-header fixed title="标题">
+  <ura-header fixed title="尤拉商场">
     <router-link to="/" slot="left">
        <ura-button icon="back"></ura-button>
        <ura-button icon="close"></ura-button>
