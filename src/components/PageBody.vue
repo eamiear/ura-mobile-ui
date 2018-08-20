@@ -1,6 +1,8 @@
 <template>
   <section class="ura-body">
-    <router-view></router-view>
+    <transition name="router-fade" mode="out-in">
+      <router-view></router-view>
+    </transition>
   </section>
 </template>
 
@@ -16,5 +18,11 @@
     @component body {
       padding: 45px 5px 0;
     }
+  }
+  .router-fade-enter-active, .router-fade-leave-active {
+    transition: opacity .3s;
+  }
+  .router-fade-enter, .router-fade-leave {
+    opacity: 0;
   }
 </style>
